@@ -1,0 +1,597 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for SYSTEMD... no
+configure: Okay, checking for systemd a different way...
+checking for SYSTEMD... no
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for gcc... (cached) gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to enable C11 features... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether make sets $(MAKE)... (cached) yes
+checking for ranlib... ranlib
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for C compiler vendor... gnu
+checking for C compiler version... 13.3.0
+checking for C compiler vendor... (cached) gnu
+checking for perl... perl
+checking for asciidoc... none
+checking for a2x... no
+checking for a2x.py... no
+checking for Python 3... /usr/bin/python3
+checking for flexible array members... yes
+checking for working C99 mid-block declaration syntax... yes
+checking for working C99 designated initializers... yes
+checking for __attribute__((fallthrough))... yes
+checking for win32... no
+checking for MIPSpro compiler... no
+checking whether byte ordering is bigendian... no
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking for library containing dlopen... none required
+checking for library containing inet_aton... none required
+checking for library containing backtrace... none required
+checking for library containing clock_gettime... none required
+checking for library containing pthread_create... none required
+checking for library containing pthread_detach... none required
+checking for _NSGetEnviron... no
+checking for RtlSecureZeroMemory... no
+checking for SecureZeroMemory... no
+checking for accept4... yes
+checking for backtrace... yes
+checking for backtrace_symbols_fd... yes
+checking for eventfd... yes
+checking for explicit_bzero... yes
+checking for timingsafe_memcmp... no
+checking for flock... yes
+checking for fsync... yes
+checking for ftime... yes
+checking for get_current_dir_name... yes
+checking for getaddrinfo... yes
+checking for getdelim... yes
+checking for getifaddrs... yes
+checking for getline... yes
+checking for getrlimit... yes
+checking for gettimeofday... yes
+checking for gmtime_r... yes
+checking for gnu_get_libc_version... yes
+checking for inet_aton... yes
+checking for ioctl... yes
+checking for issetugid... no
+checking for llround... no
+checking for localtime_r... yes
+checking for lround... no
+checking for madvise... yes
+checking for memmem... yes
+checking for memset_s... no
+checking for minherit... no
+checking for mmap... yes
+checking for pipe... yes
+checking for pipe2... yes
+checking for prctl... yes
+checking for readpassphrase... no
+checking for rint... no
+checking for sigaction... yes
+checking for snprintf... yes
+checking for socketpair... yes
+checking for statvfs... yes
+checking for strncasecmp... yes
+checking for strcasecmp... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking for strnlen... yes
+checking for strptime... yes
+checking for strtok_r... yes
+checking for strtoull... yes
+checking for sysconf... yes
+checking for sysctl... no
+checking for timegm... yes
+checking for truncate... yes
+checking for uname... yes
+checking for usleep... yes
+checking for vasprintf... yes
+checking for _vscprintf... no
+checking for vsnprintf... yes
+checking for a pre-Yosemite OS X build target... no
+checking for mach_approximate_time... no
+checking for a pre-Sierra OSX build target... no
+checking for clock_gettime... yes
+checking for getentropy... yes
+checking for pthread.h... yes
+checking for pthread_create... yes
+checking for pthread_condattr_setclock... yes
+checking for glob... yes
+checking whether free(NULL) works... yes
+checking for libevent directory... (system)
+checking whether we need extra options to link libevent... (none)
+checking for event2/event.h... yes
+checking for event2/dns.h... yes
+checking for event2/bufferevent_ssl.h... yes
+checking for library containing event_new... -levent
+checking for library containing evdns_base_new... none required
+checking for evutil_secure_rng_set_urandom_device_file... yes
+checking for evutil_secure_rng_add_bytes... yes
+checking for evdns_base_get_nameserver_addr... yes
+checking whether Libevent is new enough... yes
+checking for library containing pow... -lm
+configure: Now, we'll look for OpenSSL >= 1.0.1
+checking for openssl directory... (system)
+checking whether we need extra options to link openssl... (none)
+checking for OpenSSL >= 3.0.0... yes
+checking for OpenSSL < 1.0.1... no
+checking whether LibreSSL TLS 1.3 APIs are busted... no
+checking for significant mismatch between openssl headers and libraries... no
+checking for struct ssl_method_st.get_cipher_by_char... no
+checking for ERR_load_KDF_strings... yes
+checking for EVP_PBE_scrypt... yes
+checking for SSL_CIPHER_find... yes
+checking for SSL_CTX_set1_groups_list... no
+checking for SSL_CTX_set_security_level... yes
+checking for SSL_SESSION_get_master_key... yes
+checking for SSL_get_client_ciphers... yes
+checking for SSL_get_client_random... yes
+checking for SSL_get_server_random... yes
+checking for TLS_method... yes
+checking for SSL.state... no
+checking size of SHA_CTX... 96
+checking for struct tcp_info.tcpi_unacked... yes
+checking for struct tcp_info.tcpi_snd_mss... yes
+checking for zlib directory... (system)
+checking whether we need extra options to link zlib... (none)
+checking for LZMA... no
+configure: WARNING: Unable to find liblzma, check the PKG_CONFIG_PATH environment variable, or set LZMA_CFLAGS and LZMA_LIBS.
+checking for ZSTD... yes
+checking for ZSTD_estimateCStreamSize... yes
+checking for ZSTD_estimateDCtxSize... yes
+checking for cap_init in -lcap... no
+configure: Libcap was not found. Capabilities will not be usable.
+checking for cap_set_proc... no
+checking whether the compiler accepts -fstack-protector-all... yes
+checking whether the compiler accepts -Wstack-protector... yes
+checking whether the compiler accepts --param ssp-buffer-size=1... yes
+checking whether the compiler accepts -fPIE... yes
+checking whether the linker accepts -pie... yes
+checking whether the compiler accepts -fwrapv... yes
+checking whether we can run hardened binaries... yes
+checking whether the linker accepts -z relro -z now... yes
+checking whether the linker accepts -rdynamic... yes
+checking whether the compiler accepts -fomit-frame-pointer... yes
+checking whether the compiler accepts -fasynchronous-unwind-tables... yes
+checking for seccomp.h... no
+checking for library containing seccomp_init... no
+checking for libscrypt.h... no
+checking for library containing libscrypt_scrypt... no
+checking for libscrypt_scrypt... no
+checking whether we can use curve25519-donna-c64... yes
+checking for crypto_scalarmult_curve25519.h... no
+checking for nacl/crypto_scalarmult_curve25519.h... no
+checking for nacl compiled with a fast curve25519 implementation... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for errno.h... yes
+checking for fcntl.h... yes
+checking for signal.h... yes
+checking for string.h... (cached) yes
+checking for sys/capability.h... no
+checking for sys/fcntl.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking for arpa/inet.h... yes
+checking for crt_externs.h... no
+checking for execinfo.h... yes
+checking for gnu/libc-version.h... yes
+checking for grp.h... yes
+checking for ifaddrs.h... yes
+checking for inttypes.h... (cached) yes
+checking for limits.h... yes
+checking for linux/types.h... yes
+checking for mach/vm_inherit.h... no
+checking for machine/limits.h... no
+checking for malloc.h... yes
+checking for netdb.h... yes
+checking for netinet/in.h... yes
+checking for netinet/in6.h... no
+checking for pwd.h... yes
+checking for readpassphrase.h... no
+checking for stdatomic.h... yes
+checking for sys/eventfd.h... yes
+checking for sys/file.h... yes
+checking for sys/ioctl.h... yes
+checking for sys/limits.h... no
+checking for sys/mman.h... yes
+checking for sys/param.h... yes
+checking for sys/prctl.h... yes
+checking for sys/random.h... yes
+checking for sys/resource.h... yes
+checking for sys/select.h... yes
+checking for sys/socket.h... yes
+checking for sys/statvfs.h... yes
+checking for sys/syscall.h... yes
+checking for sys/sysctl.h... no
+checking for sys/time.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/un.h... yes
+checking for sys/utime.h... no
+checking for sys/wait.h... yes
+checking for syslog.h... yes
+checking for utime.h... yes
+checking for glob.h... yes
+checking for sys/param.h... (cached) yes
+checking for net/if.h... yes
+checking for net/pfvar.h... no
+checking for linux/if.h... yes
+checking for linux/netfilter_ipv4.h... yes
+checking for linux/netfilter_ipv6/ip6_tables.h... yes
+checking for struct timeval.tv_sec... yes
+checking size of char... 1
+checking size of short... 2
+checking size of int... 4
+checking size of unsigned int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of __int64... 0
+checking size of void *... 8
+checking size of time_t... 8
+checking size of size_t... 8
+checking size of pid_t... 4
+checking for uint... yes
+checking for u_char... yes
+checking for ssize_t... yes
+checking for ucontext.h... yes
+checking for sys/ucontext.h... yes
+checking for cygwin/signal.h... no
+checking how to access the program counter from a struct ucontext... uc_mcontext.gregs[REG_RIP]
+checking for struct in6_addr... yes
+checking for struct sockaddr_in6... yes
+checking for sa_family_t... yes
+checking for struct in6_addr.s6_addr32... yes
+checking for struct in6_addr.s6_addr16... yes
+checking for struct sockaddr_in.sin_len... no
+checking for struct sockaddr_in6.sin6_len... no
+checking for rlim_t... yes
+checking whether time_t is signed... yes
+checking whether size_t is signed... no
+checking whether enum always is signed... no
+checking size of socklen_t... 4
+checking size of cell_t... 0
+checking whether C11 stdatomic.h actually works... yes
+checking whether memset(0) sets pointers to NULL... yes
+checking whether memset(0) sets doubles to 0.0... yes
+checking whether we can malloc(0) safely.... yes
+checking whether we are using 2s-complement arithmetic... yes
+checking whether right-shift on negative values does sign-extension... yes
+checking whether uint8_t is the same type as unsigned char... yes
+checking for mlockall... yes
+checking whether mlockall is declared... yes
+checking for getresuid... yes
+checking for getresgid... yes
+checking for gethostbyname_r... yes
+checking how many arguments gethostbyname_r() wants... 6
+checking whether the C compiler supports __func__... yes
+checking whether the C compiler supports __FUNC__... no
+checking whether the C compiler supports __FUNCTION__... yes
+checking whether we have extern char **environ already declared... yes
+checking whether the compiler accepts -Waddress... yes
+checking whether the compiler accepts -Waddress-of-array-temporary... no
+checking whether the compiler accepts -Waddress-of-temporary... no
+checking whether the compiler accepts -Wambiguous-macro... no
+checking whether the compiler accepts -Wanonymous-pack-parens... no
+checking whether the compiler accepts -Warc... no
+checking whether the compiler accepts -Warc-abi... no
+checking whether the compiler accepts -Warc-bridge-casts-disallowed-in-nonarc... no
+checking whether the compiler accepts -Warc-maybe-repeated-use-of-weak... no
+checking whether the compiler accepts -Warc-performSelector-leaks... no
+checking whether the compiler accepts -Warc-repeated-use-of-weak... no
+checking whether the compiler accepts -Warray-bounds... yes
+checking whether the compiler accepts -Warray-bounds-pointer-arithmetic... no
+checking whether the compiler accepts -Wasm... no
+checking whether the compiler accepts -Wasm-operand-widths... no
+checking whether the compiler accepts -Watomic-properties... no
+checking whether the compiler accepts -Watomic-property-with-user-defined-accessor... no
+checking whether the compiler accepts -Wauto-import... no
+checking whether the compiler accepts -Wauto-storage-class... no
+checking whether the compiler accepts -Wauto-var-id... no
+checking whether the compiler accepts -Wavailability... no
+checking whether the compiler accepts -Wbackslash-newline-escape... no
+checking whether the compiler accepts -Wbad-array-new-length... no
+checking whether the compiler accepts -Wbind-to-temporary-copy... no
+checking whether the compiler accepts -Wbitfield-constant-conversion... no
+checking whether the compiler accepts -Wbool-conversion... no
+checking whether the compiler accepts -Wbool-conversions... no
+checking whether the compiler accepts -Wbuiltin-requires-header... no
+checking whether the compiler accepts -Wchar-align... no
+checking whether the compiler accepts -Wcompare-distinct-pointer-types... no
+checking whether the compiler accepts -Wcomplex-component-init... no
+checking whether the compiler accepts -Wconditional-type-mismatch... no
+checking whether the compiler accepts -Wconfig-macros... no
+checking whether the compiler accepts -Wconstant-conversion... no
+checking whether the compiler accepts -Wconstant-logical-operand... no
+checking whether the compiler accepts -Wconstexpr-not-const... no
+checking whether the compiler accepts -Wcustom-atomic-properties... no
+checking whether the compiler accepts -Wdangling-field... no
+checking whether the compiler accepts -Wdangling-initializer-list... no
+checking whether the compiler accepts -Wdate-time... yes
+checking whether the compiler accepts -Wdelegating-ctor-cycles... no
+checking whether the compiler accepts -Wdeprecated-implementations... no
+checking whether the compiler accepts -Wdeprecated-register... no
+checking whether the compiler accepts -Wdirect-ivar-access... no
+checking whether the compiler accepts -Wdiscard-qual... no
+checking whether the compiler accepts -Wdistributed-object-modifiers... no
+checking whether the compiler accepts -Wdivision-by-zero... no
+checking whether the compiler accepts -Wdollar-in-identifier-extension... no
+checking whether the compiler accepts -Wdouble-promotion... yes
+checking whether the compiler accepts -Wduplicate-decl-specifier... yes
+checking whether the compiler accepts -Wduplicate-enum... no
+checking whether the compiler accepts -Wduplicate-method-arg... no
+checking whether the compiler accepts -Wduplicate-method-match... no
+checking whether the compiler accepts -Wduplicated-cond... yes
+checking whether the compiler accepts -Wdynamic-class-memaccess... no
+checking whether the compiler accepts -Wembedded-directive... no
+checking whether the compiler accepts -Wempty-translation-unit... no
+checking whether the compiler accepts -Wenum-conversion... yes
+checking whether the compiler accepts -Wexit-time-destructors... no
+checking whether the compiler accepts -Wexplicit-ownership-type... no
+checking whether the compiler accepts -Wextern-initializer... no
+checking whether the compiler accepts -Wextra... yes
+checking whether the compiler accepts -Wextra-tokens... no
+checking whether the compiler accepts -Wflexible-array-extensions... no
+checking whether the compiler accepts -Wfloat-conversion... yes
+checking whether the compiler accepts -Wformat-non-iso... no
+checking whether the compiler accepts -Wfour-char-constants... no
+checking whether the compiler accepts -Wgcc-compat... no
+checking whether the compiler accepts -Wglobal-constructors... no
+checking whether the compiler accepts -Wgnu-array-member-paren-init... no
+checking whether the compiler accepts -Wgnu-designator... no
+checking whether the compiler accepts -Wgnu-static-float-init... no
+checking whether the compiler accepts -Wheader-guard... no
+checking whether the compiler accepts -Wheader-hygiene... no
+checking whether the compiler accepts -Widiomatic-parentheses... no
+checking whether the compiler accepts -Wignored-attributes... yes
+checking whether the compiler accepts -Wimplicit-atomic-properties... no
+checking whether the compiler accepts -Wimplicit-conversion-floating-point-to-bool... no
+checking whether the compiler accepts -Wimplicit-exception-spec-mismatch... no
+checking whether the compiler accepts -Wimplicit-fallthrough... yes
+checking whether the compiler accepts -Wimplicit-fallthrough-per-function... no
+checking whether the compiler accepts -Wimplicit-retain-self... no
+checking whether the compiler accepts -Wimport-preprocessor-directive-pedantic... no
+checking whether the compiler accepts -Wincompatible-library-redeclaration... no
+checking whether the compiler accepts -Wincompatible-pointer-types-discards-qualifiers... no
+checking whether the compiler accepts -Wincomplete-implementation... no
+checking whether the compiler accepts -Wincomplete-module... no
+checking whether the compiler accepts -Wincomplete-umbrella... no
+checking whether the compiler accepts -Winit-self... yes
+checking whether the compiler accepts -Wint-conversions... no
+checking whether the compiler accepts -Wint-to-void-pointer-cast... no
+checking whether the compiler accepts -Winteger-overflow... no
+checking whether the compiler accepts -Winvalid-constexpr... no
+checking whether the compiler accepts -Winvalid-iboutlet... no
+checking whether the compiler accepts -Winvalid-noreturn... no
+checking whether the compiler accepts -Winvalid-pp-token... no
+checking whether the compiler accepts -Winvalid-source-encoding... no
+checking whether the compiler accepts -Winvalid-token-paste... no
+checking whether the compiler accepts -Wknr-promoted-parameter... no
+checking whether the compiler accepts -Wlarge-by-value-copy... no
+checking whether the compiler accepts -Wliteral-conversion... no
+checking whether the compiler accepts -Wliteral-range... no
+checking whether the compiler accepts -Wlocal-type-template-args... no
+checking whether the compiler accepts -Wlogical-op... yes
+checking whether the compiler accepts -Wloop-analysis... no
+checking whether the compiler accepts -Wmain-return-type... no
+checking whether the compiler accepts -Wmalformed-warning-check... no
+checking whether the compiler accepts -Wmethod-signatures... no
+checking whether the compiler accepts -Wmicrosoft... no
+checking whether the compiler accepts -Wmicrosoft-exists... no
+checking whether the compiler accepts -Wmismatched-parameter-types... no
+checking whether the compiler accepts -Wmismatched-return-types... no
+checking whether the compiler accepts -Wmissing-field-initializers... yes
+checking whether the compiler accepts -Wmissing-format-attribute... yes
+checking whether the compiler accepts -Wmissing-noreturn... yes
+checking whether the compiler accepts -Wmissing-selector-name... no
+checking whether the compiler accepts -Wmissing-sysroot... no
+checking whether the compiler accepts -Wmissing-variable-declarations... no
+checking whether the compiler accepts -Wmodule-conflict... no
+checking whether the compiler accepts -Wnested-anon-types... no
+checking whether the compiler accepts -Wnewline-eof... no
+checking whether the compiler accepts -Wnon-literal-null-conversion... no
+checking whether the compiler accepts -Wnon-pod-varargs... no
+checking whether the compiler accepts -Wnonportable-cfstrings... no
+checking whether the compiler accepts -Wnormalized=nfkc... yes
+checking whether the compiler accepts -Wnull-arithmetic... no
+checking whether the compiler accepts -Wnull-character... no
+checking whether the compiler accepts -Wnull-conversion... no
+checking whether the compiler accepts -Wnull-dereference... yes
+checking whether the compiler accepts -Wout-of-line-declaration... no
+checking whether the compiler accepts -Wover-aligned... no
+checking whether the compiler accepts -Woverlength-strings... yes
+checking whether the compiler accepts -Woverride-init... yes
+checking whether the compiler accepts -Woverriding-method-mismatch... no
+checking whether the compiler accepts -Wpointer-type-mismatch... no
+checking whether the compiler accepts -Wpredefined-identifier-outside-function... no
+checking whether the compiler accepts -Wprotocol-property-synthesis-ambiguity... no
+checking whether the compiler accepts -Wreadonly-iboutlet-property... no
+checking whether the compiler accepts -Wreadonly-setter-attrs... no
+checking whether the compiler accepts -Wreceiver-expr... no
+checking whether the compiler accepts -Wreceiver-forward-class... no
+checking whether the compiler accepts -Wreceiver-is-weak... no
+checking whether the compiler accepts -Wreinterpret-base-class... no
+checking whether the compiler accepts -Wrequires-super-attribute... no
+checking whether the compiler accepts -Wreserved-user-defined-literal... no
+checking whether the compiler accepts -Wreturn-stack-address... no
+checking whether the compiler accepts -Wsection... no
+checking whether the compiler accepts -Wselector-type-mismatch... no
+checking whether the compiler accepts -Wsentinel... no
+checking whether the compiler accepts -Wserialized-diagnostics... no
+checking whether the compiler accepts -Wshadow... yes
+checking whether the compiler accepts -Wshift-count-negative... yes
+checking whether the compiler accepts -Wshift-count-overflow... yes
+checking whether the compiler accepts -Wshift-negative-value... yes
+checking whether the compiler accepts -Wshift-overflow=2... yes
+checking whether the compiler accepts -Wshift-sign-overflow... no
+checking whether the compiler accepts -Wshorten-64-to-32... no
+checking whether the compiler accepts -Wsizeof-array-argument... yes
+checking whether the compiler accepts -Wsource-uses-openmp... no
+checking whether the compiler accepts -Wstatic-float-init... no
+checking whether the compiler accepts -Wstatic-in-inline... no
+checking whether the compiler accepts -Wstatic-local-in-inline... no
+checking whether the compiler accepts -Wstrict-overflow=1... yes
+checking whether the compiler accepts -Wstring-compare... yes
+checking whether the compiler accepts -Wstring-conversion... no
+checking whether the compiler accepts -Wstrlcpy-strlcat-size... no
+checking whether the compiler accepts -Wstrncat-size... no
+checking whether the compiler accepts -Wsuggest-attribute=format... yes
+checking whether the compiler accepts -Wsuggest-attribute=noreturn... yes
+checking whether the compiler accepts -Wsuper-class-method-mismatch... no
+checking whether the compiler accepts -Wswitch-bool... yes
+checking whether the compiler accepts -Wsync-nand... yes
+checking whether the compiler accepts -Wtautological-constant-out-of-range-compare... no
+checking whether the compiler accepts -Wtentative-definition-incomplete-type... no
+checking whether the compiler accepts -Wtrampolines... yes
+checking whether the compiler accepts -Wtype-safety... no
+checking whether the compiler accepts -Wtypedef-redefinition... no
+checking whether the compiler accepts -Wtypename-missing... no
+checking whether the compiler accepts -Wundefined-inline... no
+checking whether the compiler accepts -Wundefined-internal... no
+checking whether the compiler accepts -Wundefined-reinterpret-cast... no
+checking whether the compiler accepts -Wunicode... yes
+checking whether the compiler accepts -Wunicode-whitespace... no
+checking whether the compiler accepts -Wunknown-warning-option... no
+checking whether the compiler accepts -Wunnamed-type-template-args... no
+checking whether the compiler accepts -Wunneeded-member-function... no
+checking whether the compiler accepts -Wunsequenced... no
+checking whether the compiler accepts -Wunsupported-visibility... no
+checking whether the compiler accepts -Wunused-but-set-parameter... yes
+checking whether the compiler accepts -Wunused-but-set-variable... yes
+checking whether the compiler accepts -Wunused-command-line-argument... no
+checking whether the compiler accepts -Wunused-const-variable=2... yes
+checking whether the compiler accepts -Wunused-exception-parameter... no
+checking whether the compiler accepts -Wunused-local-typedefs... yes
+checking whether the compiler accepts -Wunused-member-function... no
+checking whether the compiler accepts -Wunused-sanitize-argument... no
+checking whether the compiler accepts -Wunused-volatile-lvalue... no
+checking whether the compiler accepts -Wuser-defined-literals... no
+checking whether the compiler accepts -Wvariadic-macros... yes
+checking whether the compiler accepts -Wvector-conversion... no
+checking whether the compiler accepts -Wvector-conversions... no
+checking whether the compiler accepts -Wvexing-parse... no
+checking whether the compiler accepts -Wvisibility... no
+checking whether the compiler accepts -Wvla-extension... no
+checking whether the compiler accepts -Wzero-length-array... no
+checking whether the C compiler accepts -Wextra-semi... no
+checking whether the compiler accepts @warning_flags... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Doxyfile
+config.status: creating Makefile
+config.status: creating contrib/operator-tools/tor.logrotate
+config.status: creating src/config/torrc.sample
+config.status: creating src/config/torrc.minimal
+config.status: creating scripts/maint/checkOptionDocs.pl
+config.status: creating warning_flags
+config.status: creating orconfig.h
+config.status: executing depfiles commands
+checking for tput... /usr/bin/tput
+
+Tor Version: Tor 0.4.9.1-alpha-dev 
+
+Build Features
+  Compiler:                                                      gcc
+  Host OS:                                                       linux-gnu
+  License Option:                                                BSD
+
+  Warnings are fatal (--enable-fatal-warnings):                  no
+  Android support (--enable-android):                            no
+
+Static Build
+  tor (--enable-static-tor):                                     no
+  libevent (--enable-static-libevent):                           no
+  libssl (--enable-static-openssl):                              no
+  zlib1g (--enable-static-zlib):                                 no
+
+Optional Libraries
+  libnss (--enable-nss):                                         no
+  libseccomp (--disable-seccomp):                                yes
+  libscrypt (--disable-libscrypt):                               yes
+  Systemd support (--enable-systemd):                            no
+  liblzma (--enable-lzma):                                       no
+  libzstd (--enable-zstd):                                       yes
+
+Hardening
+  Compiler Hardening (--disable-gcc-hardening):                  yes
+  Linker Hardening (--disable-linker-hardening):                 yes
+  Fragile Hardening (--enable-fragile-hardening, dev only):      no
+
+Modules
+  relay (--disable-module-relay):                                yes
+  dirauth (--disable-module-dirauth):                            yes
+  dircache:                                                      yes
+  pow (requires --enable-gpl):                                   no
+
+Documentation
+  AsciiDoc (--disable-asciidoc):                                 no
+  Man Pages (--disable-manpage):                                 yes
+  HTML Manual (--disable-html-manual):                           yes
+
+Tests
+  Unit tests (--disable-unittests):                              yes
+  assert()s enabled (--enable-asserts-in-tests, dev only):       no
+  Code Coverage (--enable-coverage):                             no
+  libFuzzer support (--enable-libfuzzer):                        no
+  OSS-Fuzz support (--enable-oss-fuzz):                          no
+
+Tracing (--enable-tracing-instrumentation-<type>)
+  Tracepoints to log_debug() (log-debug):                        no
+  USDT Instrumentation (usdt):                                   no
+  LTTng Instrumentation (lttng):                                 no
+
+Install Directories
+  Binaries:                                                      /usr/local/bin
+  Configuration:                                                 /usr/local/etc/tor
+  Man Pages:                                                     /usr/local/share/man
+
+Configure Line: ./configure --disable-asciidoc
+
+  WARNING: 
+Encountered 1 warning(s). See messages above for more info.
+  

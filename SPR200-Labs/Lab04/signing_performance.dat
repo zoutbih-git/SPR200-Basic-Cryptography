@@ -1,0 +1,4 @@
+HashFunction TimeTaken
+sha3-256 .540
+sha3-512 .917
+ripemd160 .757

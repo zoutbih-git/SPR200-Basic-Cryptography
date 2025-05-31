@@ -1,0 +1,571 @@
+\documentclass[answer]{exam}  % !! use the 'answer' option in the bracket [] to compile your Student Submission!!
+
+\usepackage{subfiles}
+\usepackage[utf8]{inputenc}
+\usepackage{lastpage}
+\usepackage{xcolor}
+\usepackage{tikz}
+
+
+\newcommand\FillAnswer[1][]{{\color{blue}\textbf{}}}
+
+\begin{document}
+
+\title{SPR200 Final Exam}
+\date{April 15, 2025}
+
+
+\begin{center}
+    \Large
+    {\bfseries\makeatletter\@title\makeatother}
+
+    \bigskip
+
+    Seneca Polytechnic
+
+    \makeatletter\@date\makeatother
+
+    \ifanswer
+        \vspace{1pc}
+
+        {\sffamily\bfseries Student Submission}
+
+        \vspace{1pc}
+    \fi
+    
+    \vfill
+
+    \begin{center}
+        Course Number: SPR200 \\
+        Section Number: NAA \\
+        Student Name: Zakariya Outbih \\
+        Seneca ID/Email: zoutbih@MySeneca.ca \\
+        Student Number: 100184233
+    \end{center}
+
+    \vfill
+
+
+% students: Do not modify this table below:
+    \ifanswer
+        \normalsize
+        \begin{tabular}{| c | c | c |}
+            \hline
+            Question & Full Mark & \bfseries Points \\
+            \hline\hline
+             1 & 2 & \\ \hline
+             2 & 8  &\\ \hline
+             3 & 10  &\\ \hline         
+            Total & 20  &\\
+            \hline
+        \end{tabular}
+    \fi
+% students: Do not modify this table above.
+
+\end{center}
+
+\ifanswer\else
+
+    \vfill
+
+    \textbf{Instructions:}
+
+    \begin{enumerate}[label=\arabic*.]
+        
+        \item This examination contains \pageref{LastPage} pages, including this page.
+
+        \item You have \textbf{100 Minutes} to complete the exam. Make sure you submit before the time ends. You may submit unlimited number of times. 
+        
+        \item List of websites you are allowed to visit during the exam: BlackBoard (learn@Seneca), GitHub.com, Overleaf.com. You are not allowed to visit any other websites.
+
+        \item Submission Guidelines:
+        \begin{itemize}
+            \item Write your answers in the .tex documents, and compile \texttt{main.tex} to .pdf and upload only the .pdf file to the Blackboard. 
+            \item Submit BOTH of the .tex and .pdf files to your GitHub.com repository in the folder of \texttt{Final-Exam} and make the tag name \texttt{Final-Exam}.
+            \item If you miss submitting to either Blackboard or GitHub in time, you will unfortuneately get a ZERO(0) score and you'll have to retake this course. If two versions of your submitted files are different, the one on GitHub.com will be used.
+            \item Please make sure you have enough time to submit your files, late submission will not be accepted and you will get ZERO(0) score.
+        \end{itemize}
+        
+        \item You may leave the classroom at any time and not come back during the exam EXCEPT during the last 10 minutes. During the final 10 minutes, you must remain in the classroom until the exam ends.
+
+        \item Please sign the Honor Code statement by below filling in your name.
+    \end{enumerate}
+
+\fi
+
+    \fbox{\parbox{\textwidth}{
+    In recognition of and in the spirit of the Seneca Polytechnic, I certify that I will neither give nor receive unpermitted aid on this examination.
+
+    \vspace{1cm}
+
+    \hspace*{\fill}
+        Signature: \quad Zakariya Outbih% Change this line and sign here by typing your name.
+    \hspace*{\fill}
+
+    \bigskip
+    }}
+
+\clearpage
+
+\section*{Part 1: Read the Source Code and Compile to PDF [2 Points]}
+
+\ifanswer\else
+This is basically free 2 marks for you, but you should still be careful to:
+
+\begin{enumerate}
+    \item Read each line of the source files (Important: also the comments). If you don't, you lose 2 points.
+    \item Fill in what are required in the first page. If you don't get everything right (e.g., have your course section number wrong, or your name is not in the right format, you filled your student number in your Seneca ID field, etc.), you lose 2 points.
+    \item Complete all questions in \texttt{main.tex}.
+    \item Compile \texttt{main.tex}. to a .pdf file, file name should be [Firstname].[Lastname].[SenecaID].pdf (e.g., ``John.Doe.jdoe2.pdf''). If you get any parts of the file name wrong, you lose 2 points.
+    \item Restrain yourself from asking about what to submit -- it is all in the instructions. But if you really need to ask ``Is it the right file/style/file name/.. to submit?'' You will get a confirmation, but lose the marks of this question. 
+\end{enumerate}
+
+
+\textbf{The .pdf file name I submit to BlackBoard is:}
+\fi
+
+\fbox{\parbox{\textwidth}{
+    \FillAnswer{Zakariya.Outbih.zoutbih.pdf}
+}}
+
+\ifanswer\else
+If you have issues with .pdf file compilation and you cannot fix it, you can submit a .tex file in addition to the .pdf file bu tyou may lose some marks.
+
+\qnewpage
+\fi
+
+\section*{Part 2: Multiple Choice Questions [8 Points]}
+
+\ifanswer\else
+You may choose one of more options for each question. \\
+You need to get all the options right to get marks.
+
+
+\textbf{Example Question and Answer (you don't need to answer this question):}
+
+When writing an initial email to your professors for discussing a formal academic matter, which \textbf{salutation} is considered to be impolite/annoying and might result in a bad impression?
+
+\textbf{A} Hey Professor Huang \\
+\textbf{B} Hi Teacher \\
+\textbf{C} Hi Sir \\
+\textbf{D} Hi Wei  \\
+\textbf{E} No salutation, just start with the body of the email.
+
+Answer: 
+\fbox{\parbox{\textwidth}{
+    B C E
+}}
+
+Explanation (You don't have to provide explanations in your submission):
+
+\textbf{``Hi Teacher''} (Option B) Using ``Teacher'' as a name substitute shows a lack of effort to address the professor respectfully by name and position, and is generally considered inappropriate or annoying in professional academic communications.
+
+\textbf{``Hi Sir''} (Option C) is inappropriate because ``Sir'' shows you don't even bother to address the professor's actual name or title, potentially signaling a lack of attention or courtesy.
+
+\textbf{``No salutation''} (Option E) Obviously, it is not polite to not address your email recipient when starting the email thread.
+
+On the other hand:
+
+\textbf{``Hey Professor Huang''} (Option A), while informal (``Hey''), still correctly acknowledges the professor's title and last name, and might be acceptable in a slightly casual context.
+
+\textbf{``Hi Wei''} (Option D), addressing by first name, might be appropriate depending on the context and whether your professor is a casual person, for example, in this SPR200 course, your professor is happy to be addressed by just his first name. However, not everyone else is.
+
+\qnewpage
+\fi
+
+
+
+
+
+\ifanswer\else
+\textbf{Question 1:} We have talked about all the following algorithms in class. Which one(s) utilize(s) elliptic curve cryptography?
+
+\textbf{A} AES \\
+\textbf{B} EdDSA \\
+\textbf{C} ECDSA \\
+\textbf{D} RSA  
+\fi
+
+Question 1 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{B C}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+
+
+\textbf{Question 2:} Which property(ies) is/are NOT desirable in a cryptographic hash function?
+
+\textbf{A} Fast computation \\
+\textbf{B} Collision resistance \\
+\textbf{C} Preimage resistance \\
+\textbf{D} Easy reversibility
+\fi
+
+Question 2 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{D}
+}}
+
+\ifanswer\else  
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Question 3:} When we are talking about Blockchain Technology in class, we mentioned that the blockchains commonly employs which cryptographic method(s)?
+
+\textbf{A} RSA encryption \\
+\textbf{B} AES encryption \\
+\textbf{C} SHA-256 hashing \\
+\textbf{D} ECDSA signatures
+\fi
+
+Question 3 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{C D}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Question 4:} RSA encryption's security primarily depends on the complexity of:
+
+\textbf{A} Hash collision problems \\
+\textbf{B} Prime number factorization \\
+\textbf{C} Elliptic curve discrete logarithm \\
+\textbf{D} Integer overflow issues
+\fi
+
+Question 4 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{B}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Question 5:} What is a fundamental objective of zero-knowledge proofs?
+
+\textbf{A} Efficiently encrypt data \\
+\textbf{B} Verify information without revealing extra knowledge \\
+\textbf{C} Rapidly compute hash values \\
+\textbf{D} Digitally sign documents
+\fi
+
+Question 5 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{B}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Question 6:} ECC provides advantages over RSA such as:
+
+\textbf{A} Resistance against quantum computing \\
+\textbf{B} Shorter cryptographic keys \\
+\textbf{C} Guaranteed provable security \\
+\textbf{D} Improved computational efficiency
+\fi
+
+Question 6 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{B D}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Question 6:} Post-quantum cryptography is primarily focused on:
+
+\textbf{A} Increasing RSA encryption speed \\
+\textbf{B} Making encryption quantum-based \\
+\textbf{C} Securing data against quantum attacks \\
+\textbf{D} Removing the need for hash functions
+\fi
+
+Question 6 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{C}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Question 8:} Which foundational mathematical problems are used in post-quantum cryptography? (hint: this question has more than one choice as the right answers)
+
+\textbf{A} Integer factorization \\
+\textbf{B} Elliptic Curve Discrete Logarithm Problem (ECDLP) \\
+\textbf{C} Lattice-based computations \\
+\textbf{D} Solving multivariate polynomial equations
+\fi
+
+Question 8 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{C D}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Question 9:} Bitcoin mining primarily requires solving:
+
+\textbf{A} RSA encryption problems \\
+\textbf{B} Elliptic curve discrete logarithms \\
+\textbf{C} Cryptographic hash puzzles \\
+\textbf{D} Integer factorization challenges
+\fi
+
+Question 9 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{C}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+\textbf{Question 10:} Which statement correctly describes asymmetric cryptographic operations?
+
+\textbf{A} Secure key distribution beforehand is always needed \\
+\textbf{B} Encryption is done using public keys, decryption using private keys \\
+\textbf{C} Both encryption and decryption require the same key \\
+\textbf{D} Digital signatures can involve private key encryption and public key decryption
+\fi
+
+Question 10 Answer: \fbox{\parbox{0.85\textwidth}{
+    \FillAnswer{B D}
+}}
+
+\ifanswer\else
+\noindent\rule{\textwidth}{0.5pt}
+\fi
+
+\qnewpage
+
+\section*{Part 3: Practical Tasks [10 Points]}
+
+\ifanswer\else
+
+Your client provided you files of a pair of ECC cryptographic keys, but they did not tell you which ECC curve they are using. Now your client went camping in a place without cellphone signal or internet access (``I hope they suffer the life without internet,'' you think, ``they are so clumsy and careless and I hope they don't burn their campsite or left food outside to get eaten by bears!''). 
+
+Anyways, now you are here to complete the following simple tasks in a few minutes (hopefully) with the keys your client provided, and then you can get off work early and enjoy your weekend with your loved ones too. Here is a list of the files your client left for you:
+
+\begin{itemize}
+    \item \texttt{private-key.pem}
+    \item \texttt{public-key.pem}
+    \item \texttt{client-message-to-sign.txt}
+    \item \texttt{client-signature.txt}
+\end{itemize}
+
+\fi
+
+
+\textbf{Task 1: Find out what ECC curve is used when the client generated the key pair. [2 points]}
+
+\ifanswer\else
+
+(Hint-1: In the lab, you use \texttt{openssl} to generate an ECC public key from a private key. How does the \texttt{openssl} command know which ECC curve to use to generate public key from private key? It must know, right? But how?)
+
+(Hint-2: All details of openssl commands can be found in the manual, e.g., \texttt{\$man openssl ec})
+\fi
+
+The ECC curve used by the client is:
+
+\fbox{\parbox{\textwidth}{
+    \FillAnswer{secp521r1}
+}}
+
+How did you find out?
+
+\fbox{\parbox{\textwidth}{
+    \FillAnswer{openssl ec -in private-key.pem -noout -text}
+}}
+
+\ifanswer\else
+\qnewpage
+\fi
+
+\textbf{Task 2: Print Out the Signature Clients Left. [2 points]} 
+
+\ifanswer\else
+So the client left you a signature: \texttt{client-signature.txt}. Now you need to print it out and send it to someone else along with the message \texttt{client-message-to-sign.txt}, so they can verify that it is indeed the client's signature on the message.
+
+However, the signature is not readable when you try to open it, so you need to print it out in hex format. You wrote a python/shell program to do this and the output of your program by executing the following command is the hex format content of the signature file:
+
+\fbox{\parbox{0.85\textwidth}{
+\texttt{\$ python task2.py}
+}}
+
+or, 
+
+\fbox{\parbox{0.85\textwidth}{
+\texttt{\$ ./task2.sh}
+}}
+
+The client's signature in hex format is:
+\fi
+
+\fbox{\parbox{\textwidth}{
+    \FillAnswer{3081 8802 4201 4c6a 50a9 6a9d 19c1 e021  
+4c31 cec3 fc39 1a57 9fed 53cf dc40 c7ba  
+ea4c 4ead 1a1f 9b32 4d6b 899c 96d3 9f11  
+0dd6 cd16 05f1 8982 f33d f5db e2a3 661e  
+3403 18df e364 3002 4201 9fa3 78a5 3ef5 
+cf3a 0242 9d16 5635 4bed cadb 8613 8101  
+f34c 4128 e47b e4f0 40da b896 a528 4b6f  
+37e3 c694 2e9e edce 5a59 3f0e b75a 86d5  
+3eb4 52b2 527c f090 41eb 8a}
+}}
+
+\ifanswer\else
+
+If you used a python program to solve it, please provide \texttt(task2.py) and submit it on GitHub in the same folder of your other files.
+
+If you used a shell script to solve it, please provide \texttt(task2.sh) and submit it on GitHub in the same folder of your other files.
+
+\fi
+
+\ifanswer\else
+\qnewpage
+\fi
+
+\textbf{Task 3: Verify the Signature. [2 points]}
+
+\ifanswer\else
+After you sent the signature and message file to someone else, they immediately responded to you: 
+
+\fbox{\parbox{0.85\textwidth}{
+Dear XXX,
+
+I received your signature and message file. However, I cannot verify the signature because although I have the public key of the client, I don't know which hash algorithm the client used to generate the digest of the message.
+
+Please let me know which hash algorithm the client used.
+
+Best regards,
+
+Someone Else
+
+}}
+
+
+
+\fi
+
+The client's message digest algorithm used was:
+
+\fbox{\parbox{\textwidth}{
+    \FillAnswer{-sha3-512 }
+}}
+
+In one or a few sentences, explain briefly how you found out. If you wrote a program to solve it, please include how you used the program in the explanation:
+
+\fbox{\parbox{\textwidth}{
+    \FillAnswer{first I used this command: openssl dgst -list to list all possible digests, then I used the verify command for every digest replacing them each time until I got a Verified OK openssl dgst -sha3-512 -verify public-key.pem -signature client-signature.sig client-message-to-sign.txt. Essentially brute force}
+}}
+
+\ifanswer\else
+If you used a python program to solve it, please provide \texttt(task3.py) and submit it on GitHub in the same folder of your other files.
+
+If you used a shell script to solve it, please provide \texttt(task3.sh) and submit it on GitHub in the same folder of your other files.
+
+\qnewpage
+\fi
+
+
+
+\textbf{Task 4: Python Program to Verify the Signature. [2 points]}
+
+\ifanswer\else
+Someone else also has many client messages and signatures to verify. Please write a python program to verify the signatures of the client. The program should run like this:
+
+When the signature can be verified successfully:
+
+
+\fbox{\parbox{\textwidth}{
+    \$ task4.py client-message-21.txt client-signature-21.sig public-key.pem\\
+
+    Signature verified successfully.
+}}
+
+When the signature cannot be verified successfully:
+
+\fbox{\parbox{\textwidth}{
+    \$ task4.py client-message-136.txt client-signature-136.sig public-key.pem\\
+
+    Signature verification failed.
+}}
+
+
+Please provide \texttt(task4.py) and submit it on GitHub in the same folder of your other files.
+\fi
+
+Copy and paste the 9th non-empty line of your \texttt(task4.py) source code here:
+
+\fbox{\parbox{\textwidth}{
+    \FillAnswer{}
+}}
+
+\ifanswer\else
+\qnewpage
+\fi
+
+
+\textbf{Task 5: Answer your client's question about post-quantum cryptography. [2 points]}
+
+
+\ifanswer\else
+
+Your client is a bit paranoid about the recent news about quantum computing and its potential impact on the security of the cryptographic systems they are using. They are concerned whether the signature scheme they used is still safe when quantum computers are powerful enough in the future. Please write an email to your client to explain:
+
+\begin{enumerate}
+    \item What can quantum computers do?
+    \item What can quantum computers do to the security of the cryptographic systems? 
+    \item Is the ECC signature scheme still safe when quantum computers are powerful enough?
+    \item If yes, why the current ECC signature scheme is still safe? If not, what can the client do if they want to improve the security of the signature scheme against future quantum attacks?
+\end{enumerate}
+
+\fi
+
+Write the email to your client in the following box:
+
+\fbox{\parbox{0.95\textwidth}{
+Dear Valued Client,
+
+Thank you for your inquiry regarding the security implications of quantum computing on our current cryptographic systems. I appreciate your proactive approach to understanding these important security considerations. \\
+
+I would like to address your concerns with the following detailed explanation:
+
+\FillAnswer{Quantum computers can do alote of things that classical computers cannot. They do not operate like classical computers that use regular bits (1 or 0) they use qubits (1 and 0), they are highly effective at specialised tasks\\
+
+Quantum computers can affect the security of current cryptographic systems specifically RSA and those using eliptic curve cryptography. Algorithms like shor's algorithm reduce the security of current cryptographic systems to the point that they are no longer secure, for example it can turn an aes 2 to the power 128 key into 2 to the power 56 which is very breakable\\
+
+No the ECC signature scheme is not safe when quantum computers are powerful enough as explained above\\
+
+To better protect against quantum computer on cryptographic algorithms I highly reccomend using post quantum cryptographic algorithms like sphincs+ \\
+}
+
+I trust this information will assist you in making informed decisions regarding your cryptographic security strategy. Please do not hesitate to contact me if you require any clarification or have additional questions.
+
+Best regards,
+
+XXX
+}}
+
+\ifanswer\else
+\qnewpage
+
+\section*{Submission Checklist}
+
+You need to submit your files to \textbf{BOTH} BlackBoard and GitHub. 
+
+On BlackBoard, you need to submit the following files:
+
+\begin{itemize}
+    \item Your compiled .pdf file
+\end{itemize}
+
+
+On GitHub, you need to submit the following files:
+
+\begin{itemize}
+    \item Your .tex file
+    \item Your compiled .pdf file
+    \item All the source codes of your programs including:
+    \begin{itemize}
+        \item task2.py or task2.sh
+        \item task3.py or task3.sh
+        \item task4.py
+    \end{itemize}
+\end{itemize}
+\fi
+
+\end{document}

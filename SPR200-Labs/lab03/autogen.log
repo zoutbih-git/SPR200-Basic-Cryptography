@@ -1,0 +1,9 @@
+/usr/bin/autoreconf
+configure.ac:439: installing './ar-lib'
+configure.ac:37: installing './compile'
+configure.ac:38: installing './config.guess'
+configure.ac:38: installing './config.sub'
+configure.ac:27: installing './install-sh'
+configure.ac:27: installing './missing'
+Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
